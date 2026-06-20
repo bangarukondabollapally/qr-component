@@ -67,13 +67,6 @@ a {
     color: var(--slate-500);
 }
 
-footer {
-    position: fixed;
-    bottom: 2%;
-    left:50%;
-    transform: translateX(-50%);
-}
-
 @media (max-width:375px) {
     .main {
         width: 80%;
@@ -85,12 +78,5 @@ footer {
 
     .title {
         font-size: 20px;
-    }
-
-    footer {
-        font-size: 10px;
-        width: 100%;
-        text-align: center;
-    }
-    
+    }    
 }

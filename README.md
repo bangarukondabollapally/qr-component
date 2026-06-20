@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add your Frontend Mentor solution URL here]
-- Live Site URL: [Add your deployed Vercel/Netlify URL here]
+- Live Site URL: [https://qr-component-beta-neon.vercel.app/]
 
 ## My process
 
