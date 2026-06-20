@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+    --font-outfit : "Outfit";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--slate-300);
+    font-family: var(--font-outfit);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 500px;
+    width: 320px;
+    background-color: var(--white);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    height: 280px;
+    width: 280px;
+    border-radius: 4%;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+a {
+    font-weight: 500;
+    color: blue;
+}
+
+.title {
+    margin-top: 18px;
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--slate-900);
+}
+
+.description {
+    margin-top: 18px;
+    font-weight: 500;
+    color: var(--slate-500);
+}
+
+footer {
+    position: fixed;
+    bottom: 2%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width:375px) {
+    .main {
+        width: 80%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
