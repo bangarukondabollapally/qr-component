@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here]
-- Live Site URL: [https://qr-component-beta-neon.vercel.app/]
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html5-css3-flexbox-and-responsive-design-LhmFtHMPJx)
+- [Live Site](https://qr-component-beta-neon.vercel.app/)
 
 ## My process
 
